@@ -1,6 +1,9 @@
 Assignment Submission Guide Code :
 
-link where to submit -> create private repository -> hithub -> code option -> copy the https url -> go to folder & run git bash -> git clone copiedURL -> Folder configuration completed.-> Add assignment files -> open gitbash then type -> git add . -> git status -> then commit -> git commit -m "Assignment Submission" -> now code is ready to push to repository -> git push origin master -> Goto repository & refresh all file will be uploaded.
+link where to submit -> create private repository -> hithub -> code option -> copy the https url 
+-> go to folder & run git bash -> git clone copiedURL -> Folder configuration completed.-> Add assignment files 
+-> open gitbash then type -> git add . -> git status -> then commit -> git commit -m "Assignment Submission" 
+-> now code is ready to push to repository -> git push origin master -> Goto repository & refresh all file will be uploaded.
 -------------------------------------------------
 -> After modifying files ->
 in git bash run same codes from beginning.
@@ -51,7 +54,7 @@ Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/ChinmaySenapati/CSA07.git
    668ee89..b3d0486  main -> main
-======================================================
+======================================================ok
 
 
 
