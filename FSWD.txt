@@ -54,7 +54,19 @@ Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/ChinmaySenapati/CSA07.git
    668ee89..b3d0486  main -> main
+======================================================
+
+Q. Where can I access/ read the user stories of the project?
+You can access/ read the user stories in the pivotal tracker. Also, the link would be provided in the assignment
+documents as well as in the presentations (you can find both in the respective modules in the LMS), wherever
+required.
+
+Q.  I am not able to access the images, it is displaying “you are not invited to the project” error while accessing
+images.
+You have to use the following credentials to Log in to Zeplin. Make sure you log out from the existing email and
+login using the mentioned username and password.
+Username: jangidpavan@gmail.com
+Password: pavan123
+
 ======================================================ok
-
-
 
