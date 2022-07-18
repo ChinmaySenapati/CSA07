@@ -67,6 +67,25 @@ You have to use the following credentials to Log in to Zeplin. Make sure you log
 login using the mentioned username and password.
 Username: jangidpavan@gmail.com
 Password: pavan123
+======================================================
 
+Who is the Point of Contact from Team Edureka?
+a) The Learning Experience Manager : Overall program related issues.
+b) The Batch Mentors : For technical issues with concepts and assignments.
+c) The Operations Team : For non-technical issues - LMS not working, Batch Shift
+d) The Sales Team : For any sales related issues.
 ======================================================ok
+Frontend Devloper Skills Requirements : Testing, Browser Developer Tool, Web Performance, CSS Processing & Command line
+
+Version Control System Tools: GIT, Subversion.
+Project Management Tools : JIRA, Simwork, Basecamp
+Web Performance : gruntend gulf to automate image optimization & CSS,JS manufining
+CSS Processing : SaSs	
+
+Backend Devloper Skills Requirements : Any Programming language, Database, Server setup, Deployment tools, JS framework & library 
+
+Full Stack Web Devloper Skills Requirements : Web Architecture & communication Protocols (HTTP, TCPIP), Deplying OS (Ubentu, SentOS, Windows), HTML,CSS, JS, Serverside program, its frameworklike NodeJS,Databases, Technology stacks(git).
+
+DEVOPS: Development & Operations
+	
 
