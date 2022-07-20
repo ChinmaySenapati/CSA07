@@ -54,6 +54,21 @@ Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/ChinmaySenapati/CSA07.git
    668ee89..b3d0486  main -> main
+--------------------------------------------------------------
+CHINU@Chinmay MINGW64 /f/MERN/Assignments/assignment/CSA07 (main)
+$ git push origin main
+To https://github.com/ChinmaySenapati/CSA07.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ChinmaySenapati/CSA07.git
+'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Sol: git fetch origin main
+     git merge origin main
 ======================================================
 
 Q. Where can I access/ read the user stories of the project?
