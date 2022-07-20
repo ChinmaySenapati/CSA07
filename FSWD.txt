@@ -89,4 +89,4 @@ Full Stack Web Devloper Skills Requirements : Web Architecture & communication P
 DEVOPS: Development & Operations
 ======================================================
 https://app.diagrams.net	
-======================================================ok
+======================================================okok
