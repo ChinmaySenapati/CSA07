@@ -1,0 +1,70 @@
+link where to submit -> create private repository -> github -> code option -> copy the https url 
+-> go to folder & run git bash --> git clone copiedURL -> Folder configuration completed.-> Add assignment files 
+-> open gitbash then type --> git add . --> git status -> then commit --> git commit -m "Assignment Submission" 
+-> now code is ready to push to repository --> git push origin master  OR git push -> Goto repository & refresh all file will be uploaded.
+-------------------------------------------------
+-> After modifying files ->
+in git bash run same codes from beginning.
+------------------------------------------------
+-> git version -> git --versions
+------------------------------------------------
+--> git errors :
+
+CHINU@Chinmay MINGW64 /f/MERN/Assignments/assignment/CSA07 (main)
+$ git commit -m "Assignment Details"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'CHINU@Chinmay.(none)')
+
+Sol: git config --global user.email "chinmaysenapati07@gmail.com"
+git config --global user.name "chinmaysenapati"
+=======================================================
+CHINU@Chinmay MINGW64 /f/MERN/Assignments/assignment/CSA07 (main)
+$ git push origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ChinmaySenapati
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://ChinmaySenapati@github.com':
+remote: Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.
+remote: Please see https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/ for more information.
+fatal: Authentication failed for 'https://github.com/ChinmaySenapati/CSA07.git/'
+
+Sol: Need to creat Token for Password -> Setting -> DevelpoerSetting -> personal access token 
+
+CHINU@Chinmay MINGW64 /f/MERN/Assignments/assignment/CSA07 (main)
+$ git push origin main
+Logon failed, use ctrl+c to cancel basic credential prompt.
+Username for 'https://github.com': ChinmaySenapati
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 295 bytes | 147.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ChinmaySenapati/CSA07.git
+   668ee89..b3d0486  main -> main
+--------------------------------------------------------------
+CHINU@Chinmay MINGW64 /f/MERN/Assignments/assignment/CSA07 (main)
+$ git push origin main
+To https://github.com/ChinmaySenapati/CSA07.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/ChinmaySenapati/CSA07.git
+'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Sol: git fetch origin main
+     git merge origin main
+======================================================
